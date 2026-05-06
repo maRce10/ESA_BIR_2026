@@ -25,7 +25,7 @@ date: "`r Sys.Date()`"
 
  
 
-## Day 1 ([Video](https://udecr.zoom.us/rec/share/KYr3l1GlHfxQ3zu791jfKfNas_VUMmfIK__uhr_mF_B32-KYxpE36YbPSQaMjbpc.0Y_xfwv6YwjHU9jd))
+## Day 1
 
 ------------------------------------------------------------------------
 
@@ -92,7 +92,7 @@ date: "`r Sys.Date()`"
 
  
 
-## Day 2 ([Video](https://udecr.zoom.us/rec/share/wAwNw4_NpfCe2saHaqLkpq79XrDC8HkptZ4VUR8b1kM-mmVhMhDBDxLa7EvvBgjU.piSvXLNEJmBa97FM?startTime=1747152336000))
+## Day 2
 
 
 ---
@@ -135,7 +135,7 @@ date: "`r Sys.Date()`"
 
  
 
-## Day 3 ([Video](https://udecr.zoom.us/rec/share/LkAmlALctf84Vv0ul4vYop17ociVyiTNekQcRlDQ7x2nHawfXuaar69WvdX_gedx.KKc-Yf_vVY5ax3EX))
+## Day 3
 
 ---
 
@@ -189,7 +189,7 @@ date: "`r Sys.Date()`"
 
  
 
-## Day 4 ([Video](https://udecr.zoom.us/rec/share/zeyjFHFwdxbdk_wDFQBqMbCNrjgeyOnDkmRq1FdriwkmHl_BQZ0ae9ceNSt045no.pz5jIz5-5mRO4hwu))
+## Day 4
 
 ---
 
@@ -230,7 +230,7 @@ date: "`r Sys.Date()`"
 
  
 
-## Day 5 ([Video](https://udecr.zoom.us/rec/share/yDPRNxxUglTgj8kJjnGzD9j6AZJyWddUC9xUdiHjYmM6T8Y-NtTYNKNgqNQe7o4q.NHTjgj4GQlH-0zs4))
+## Day 5
 
 ---
 

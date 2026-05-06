@@ -212,7 +212,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span class="menu-text">Course prep</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://codefile.io/f/inMsojTFoN"> 
+    <a class="nav-link" href="https://livecodeshare.vercel.app/room/1ecd4116"> 
 <span class="menu-text">Code sharing</span></a>
   </li>  
   <li class="nav-item">
@@ -350,9 +350,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>Several additional indices derived from these indices are used to evaluate the performance of a detection routine. These are three useful indices in the context of sound event detection included in <a href="https://github.com/ropensci/ohun">ohun</a>:</p>
 <ul>
-<li><strong>Recall</strong>: correct detections relative to total references (a.k.a. true positive rate or sensitivity; <em>TPs / (TPs + FNs)</em>)</li>
-<li><strong>Precision</strong>: correct detections relative to total detections (<em>TPs / (TPs + FPs)</em>).</li>
-<li><strong>F1 score</strong>: combines recall and precision as the harmonic mean of these two, so it provides a single value for evaluating performance (a.k.a. F-measure or Dice similarity coefficient).</li>
+<li><strong>Recall</strong>: proportion of true positives detected out of all actual positives (true positive rate or sensitivity; <em>TPs / (TPs + FNs)</em>).</li>
+<li><strong>Precision</strong>: proportion of true positives among all predicted positives (<em>TPs / (TPs + FPs)</em>).</li>
+<li><strong>F1 score</strong>: harmonic mean of precision and recall, providing a single measure that balances both (also known as the F-measure).</li>
 </ul>
 <p><font size="2"><em>(Metrics that make use of ‘true negatives’ cannot be easily applied in the context of sound event detection as noise cannot always be partitioned in discrete units)</em></font></p>
 <p>A perfect detection will have no false positives or false negatives, which will result in both recall and precision equal to 1. However, perfect detection cannot always be reached and some compromise between detecting all target signals plus some noise (recall = 1 &amp; precision &lt; 1) and detecting only target signals but not all of them (recall &lt; 1 &amp; precision = 1) is warranted. The right balance between these two extremes will be given by the relative costs of missing signals and mistaking noise for signals. Hence, these indices provide an useful framework for diagnosing and optimizing the performance of a detection routine.</p>
