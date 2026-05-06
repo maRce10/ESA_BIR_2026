@@ -56,7 +56,7 @@ website:
       - text: "Course prep"
         href: course_prep.qmd
       - text: "Code sharing"
-        href: "https://codefile.io/f/inMsojTFoN"
+        href: "https://livecodeshare.vercel.app/room/1ecd4116"
       - text: "Instructor"
         href: instructor.qmd
 
