@@ -23,7 +23,8 @@ Example on how to get recording's metadata (no downloading):
 
 library(suwo)
 
-phae_his <- query_xenocanto(term = 'Phaethornis hispidus')
+# Sys.setenv(xc_api_key = "YOUR_API_KEY_HERE")
+phae_his <- query_xenocanto('Phaethornis hispidus', all_data = TRUE)
 
 ```
 
@@ -31,7 +32,7 @@ Keep only song vocalizations:
 
 ```{r}
 
-song_phae_his <- phae_his[grep("song", ignore.case = TRUE, phae_his$vocalization.type), ]
+song_phae_his <- phae_his[grep("song", ignore.case = TRUE, phae_his$vocalization_type), ]
 
 ```
 

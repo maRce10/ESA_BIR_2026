@@ -442,17 +442,24 @@ box_css = "border: 1px solid #ddd; padding: 5px; ", extra_css = NULL)
 
 The similarity matrix returned by the function can be visualized as a heatmap:
 
+
 ```{r}
 
 # present xcor as a heatmap using ggplot2
-ggheatmap(xcor) +
+df <- as.data.frame(as.table(xcor))
+
+ggplot(df, aes(Var1, Var2, fill = Freq)) +
+  geom_tile() +
   scale_fill_viridis_c(
     option = "G",
     direction = 1,
     begin = 0.1,
     end = 0.8
   ) +
-  theme(axis.text.x = element_text(angle = 90))
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  coord_equal()
+
 ```
 The acoustic space defined by the pairwise similarities can be projected into two axis using multidimensional scaling:
 
@@ -576,15 +583,19 @@ The DTW distance matrix returned by the function can also be visualized as a hea
 
 ```{r}
 
-# present xcor as a heatmap using ggplot2
-ggheatmap(dtw_dist) +
+df <- as.data.frame(as.table(dtw_dist))
+
+ggplot(df, aes(Var1, Var2, fill = Freq)) +
+  geom_tile() +
   scale_fill_viridis_c(
     option = "G",
-    direction = -1,
+    direction = 1,
     begin = 0.1,
     end = 0.8
   ) +
-  theme(axis.text.x = element_text(angle = 90))
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1)) +
+  coord_equal()
 
 ```
 
