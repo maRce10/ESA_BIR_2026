@@ -110,9 +110,10 @@ Broadly speaking, signal detection theory deals with the process of recovering s
 
 Several additional indices derived from these indices are used to evaluate the performance of a detection routine. These are three useful indices in the context of sound event detection included in [ohun](https://github.com/ropensci/ohun):
 
--   **Recall**: correct detections relative to total references (a.k.a. true positive rate or sensitivity; *TPs / (TPs + FNs)*)
--   **Precision**: correct detections relative to total detections (*TPs / (TPs + FPs)*).
--   **F1 score**: combines recall and precision as the harmonic mean of these two, so it provides a single value for evaluating performance (a.k.a. F-measure or Dice similarity coefficient).
+- **Recall**: proportion of true positives detected out of all actual positives (true positive rate or sensitivity; *TPs / (TPs + FNs)*).
+- **Precision**: proportion of true positives among all predicted positives (*TPs / (TPs + FPs)*).
+- **F1 score**: harmonic mean of precision and recall, providing a single measure that balances both (also known as the F-measure).
+
 
 <font size = "2">*(Metrics that make use of 'true negatives' cannot be easily applied in the context of sound event detection as noise cannot always be partitioned in discrete units)*</font>
 
