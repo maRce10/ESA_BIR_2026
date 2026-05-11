@@ -79,7 +79,7 @@ date: "`r Sys.Date()`"
 ::: {.alert .alert-info}
 ### Homework
 
-1.  Use the function `query_xenocanto()` from the [suwo package](https://github.com/ropensci/suwo) to check the availability of recordings for a species of interest in [Xeno-Canto](https://xeno-canto.org/). This repository offers recordings for several taxonomic groups. Take a look at [this link](https://xeno-canto.org/explore/taxonomy) for a list of species by taxonomic group. Check [this brief tutorial](get_online_recordings.qmd) on how to get the recordings with suwo.
+1.  Use the any of the query functions (e.g. `query_gbif()`, `query_macaulay()`, `query_xenocanto()`) from the [suwo package](https://github.com/ropensci/suwo) to check the availability of recordings for a species of interest. This repositories offers recordings for several taxonomic groups. Take a look at the [suwo vignette](https://docs.ropensci.org/suwo/articles/suwo.html) for a list of taxonomic groups by repository. Check [this brief tutorial](get_online_recordings.qmd) on how to get the recordings with suwo.
 
 2.  Subset the data frame returned by the function to get a subset of subspecies/populations or recordings from a specific country and for certain vocalization type (using base R subsetting tools)
 
