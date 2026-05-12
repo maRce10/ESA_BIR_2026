@@ -128,7 +128,7 @@ date: "`r Sys.Date()`"
 ::: {.alert .alert-info}
 ### Homework
 
-1.  Use Raven Pro to annotate some of the signals found in the xeno-canto recordings you downloaded previously
+1.  Use Raven Pro to annotate some of the signals found in the recordings you downloaded previously
 :::
 
 ---

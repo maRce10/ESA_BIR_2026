@@ -851,7 +851,7 @@
     "href": "program.html#day-2",
     "title": "Bioacoustic analysis in R 2026",
     "section": "2 Day 2",
-    "text": "2 Day 2\n\n\n2.1 Additional resources\n\n2.1.1 Raven tutorials\n\nIntroduction to the Raven Pro Interface\nIntroduction to selections and measurements\nSaving, retrieving, and exporting selection tables\nUsing annotations\n\n\n\nBuilding spectrograms Building spectrograms\n\nFourier transform\nBuilding a spectrogram\nCharacteristics and limitations\nSpectrograms in R\n\nPackage seewave seewave\n\nExplore, modify and measure ‘wave’ objects\nSpectrograms and oscillograms\nFiltering and re-sampling\nAcoustic measurements\n\n \n\n2.2 Homework\n\nUse Raven Pro to annotate some of the signals found in the xeno-canto recordings you downloaded previously"
+    "text": "2 Day 2\n\n\n2.1 Additional resources\n\n2.1.1 Raven tutorials\n\nIntroduction to the Raven Pro Interface\nIntroduction to selections and measurements\nSaving, retrieving, and exporting selection tables\nUsing annotations\n\n\n\nBuilding spectrograms Building spectrograms\n\nFourier transform\nBuilding a spectrogram\nCharacteristics and limitations\nSpectrograms in R\n\nPackage seewave seewave\n\nExplore, modify and measure ‘wave’ objects\nSpectrograms and oscillograms\nFiltering and re-sampling\nAcoustic measurements\n\n \n\n2.2 Homework\n\nUse Raven Pro to annotate some of the signals found in the recordings you downloaded previously"
   },
   {
     "objectID": "program.html#day-3",
