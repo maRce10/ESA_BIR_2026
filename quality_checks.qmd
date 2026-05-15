@@ -203,7 +203,7 @@ a <- file.copy(file.path(tempdir(), "corrupted_file.wav"), file.path(.Options$wa
 
  
 
-## Spectrograph settings
+## Spectrogram settings
 
 The parameters that determine the appearance of spectrograms (and power spectra and periodgrams) also have an effect on the measurements taken on them. Therefore it is necessary to use the same parameters to analyze all the signals in a project (except with some exceptions) so that the measurements are comparable. The visualization of spectrograms generated with different spectrographic parameters is a useful way of defining the combination of parameters with which the structure of the signals is distinguished in more detail. The function `tweak_spectro()` aims to simplify the selection of parameters through the display of spectrograms. The function plots, for a single selection, a mosaic of spectrograms with different display parameters. For numerical arguments, the upper and lower limits of a range can be provided. The following parameters may have variable values:
 

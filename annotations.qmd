@@ -201,7 +201,7 @@ Raven selections can also be imported in 'selection.table' format so that you ca
 
 ```{r, eval=FALSE}
 
-rvn.dat <- imp_raven(all.data = FALSE, freq.cols = TRUE, path = "./examples", warbler.format = TRUE, all.data = FALSE)
+rvn.dat <- imp_raven(all.data = FALSE, freq.cols = TRUE, path = "./examples", warbler.format = TRUE)
 
 head(rvn.dat)
 
